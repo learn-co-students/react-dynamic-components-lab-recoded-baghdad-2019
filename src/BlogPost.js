@@ -21,8 +21,8 @@ export default class BlogPost extends Component {
         I was born in it<br/>
         {/* (remove the comment ticks and their surrounding brackets) */}
         <Comment commentText={comments[0]} />
-        <Comment commentText={comments[0]} />
-        <Comment commentText={comments[0]} />
+        <Comment commentText={comments[1]} />
+        <Comment commentText={comments[2]} />
        
       </div>
     );
