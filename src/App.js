@@ -8,10 +8,7 @@ class App extends Component {
   // Make note of what prop we are initially passing to `ColorBox` below!
   
   render() {
-    let x = this.props.opacity
-    if (x >= 0.2){
-      
-    }
+ 
     return (
       <div id="app">
           <BlogPost />
